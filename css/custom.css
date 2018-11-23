@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700,700i|Exo');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Exo', sans-serif;
+}
+/* header section */
+header{
+
+background: #3B5998;
+font-family: 'Alegreya', serif;
+}
+.container{
+
+width: 1000px;
+
+margin: 0 auto;
+
+overflow: hidden;
+}
+.left{
+
+width: 50%;
+
+float: left;
+}
+.left h1{
+
+}
+.left h1 a{
+    font-size: 70px;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.right{
+
+width: 50%;
+
+float: right;
+
+margin-top: 18px;
+}
+.right form{}
+.right ul{}
+.right ul li{
+
+float: left;
+
+list-style: none;
+
+padding-left: 12px;
+
+box-sizing: border-box;
+}
+.right span{
+    color: white;
+    font-size: 14px;
+    display: block;
+}
+.right input{
+    border: 1px solid black;
+    padding: 3px 4px;
+    width: 100%;
+}
+.right a{
+    color: #9CB4D8;
+    display: block;
+    font-size: 14px;
+}
+.login-btn{
+    background: #3f65af;
+    color: white;
+    padding: 3px 4px !important;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* header section */
+
+/* sign up section section */
+.signup-section{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+1,d4d9e9+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 1%, #d4d9e9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffffff 1%,#d4d9e9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffffff 1%,#d4d9e9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d9e9',GradientType=0 ); /* IE6-9 */
+}
+.signup-section .left-side{
+    padding-right: 35px;
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+.signup-section .right-side{
+    margin: 0 auto;
+    float: right;
+    width: 50%;
+}
+
+.left-side h3{
+    font-size: 23px;
+    margin-top: 20px;
+}
+.left-side img{
+    max-width: 100%;
+}
+
+.right-side h1{font-size: 50px;}
+.right-side h3{
+    margin-bottom: 10px;
+}
+.right-side p{
+    font-size: 16px;
+}
+.names{
+    overflow: hidden;
+}
+.names li{
+    width: 50%;
+    list-style: none;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.names li input{width: 100%;box-sizing: border-box;padding: 10px;border: 1px solid#888884;border-radius: 5px;margin-bottom: 10px;}
+.info {
+    margin-top: 10px;
+}
+.info li{
+    list-style: none;
+    width: 100%;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+.info li input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid#888884;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.names select{
+    box-sizing: border-box;
+    padding: 6px;
+    border: 1px solid#888884;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.names option{}
+.names a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #3b5998;
+    display: block;
+    width: 150px;
+}
+.gender{
+	margin: 0 auto;
+	overflow: hidden;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+.gender ul{}
+.gender ul li{
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 20px 8px 0;
+}
+.gender ul li input{}
+.names a:hover{}
+.right-bottom p{
+    font-size: 12px;
+}
+.right-bottom a{
+    text-decoration: none;
+    color: #3766ca;
+}
+.right-bottom a:hover{}
+.right-bottom span{
+    background: #a0a1a5;
+    width: 500px;
+    height: 1px;
+    display: block;
+    margin-bottom: 20px;
+}
+.names input{
+}
+.btn{
+    color: white;
+    background: #61974C;
+    padding: 10px 65px;
+    border-radius: 5px;
+    border: 1px solid #5a8a47;
+    margin: 20px 0 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6dc968+0,61974c+100 */
+background: #6dc968; /* Old browsers */
+background: -moz-linear-gradient(top, #6dc968 0%, #61974c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #6dc968 0%,#61974c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #6dc968 0%,#61974c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6dc968', endColorstr='#61974c',GradientType=0 ); /* IE6-9 */
+.gender li{
+    list-style: none;
+    float: left;
+    margin: 30px 0 30px;
+    padding-right: 20px;
+}
+.gender li input{}
+.gender li span{
+    font-size: 20px;
+}
+.right-bottom strong{}
+
+/* sign up section section */
